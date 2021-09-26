@@ -20,9 +20,9 @@ function questions() {
     var askSpecial = confirm("Do you want your password to include special characters?");
     var responses = {
       length: length,
-      askNumbers: askNumbers,
       askLowerCase: askLowerCase,
       askUpperCase: askUpperCase,
+      askNumbers: askNumbers,
       askSpecial: askSpecial
     } 
     if((length < 8)||(length > 128))
